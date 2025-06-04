@@ -27,7 +27,7 @@ $line_break$character"""
 
 palette = 'elwyn_arch'
 [palettes.elwyn_arch]
-text = "#cdd6f4"
+text = "#FFFFFF"
 surface = "#313244"
 mantle = "#181825"
 crimson = "#9e2732"
@@ -110,9 +110,9 @@ disabled = false
 
 [character]
 disabled = false
-success_symbol = '[](bold fg:emerald)'
-error_symbol = '[](bold fg:crimson)'
-vimcmd_symbol = '[](bold fg:creen)'
+success_symbol = '[ ➜](bold emerald)'
+error_symbol = '[ x](bold crimson)'
+vimcmd_symbol = '[](bold emerald)'
 vimcmd_replace_one_symbol = '[](bold fg:gold)'
 vimcmd_replace_symbol = '[](bold fg:gold)'
 vimcmd_visual_symbol = '[](bold fg:gold)'
