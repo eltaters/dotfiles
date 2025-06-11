@@ -2,7 +2,7 @@
 
 format = """
 [╭─](bold text)[](surface)$os$username[]\
-(bg:emerald fg:surface)$directory[]\
+(fg:surface bg:emerald)$directory[]\
 (fg:emerald bg:dark-emerald)$git_branch$git_status[]\
 (fg:dark-emerald bg:crimson)$time[ ](fg:crimson)\
 $line_break$character"""
@@ -35,7 +35,7 @@ style_root = "bold bg:surface fg:text"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:mantle bg:emerald"
+style = "fg:mantle bold bg:emerald"
 format = "[ $path ]($style)"
 
 [directory.substitutions]
@@ -54,10 +54,10 @@ format = "[ $path ]($style)"
 [git_branch]
 symbol = ""
 style = "bg:dark-emerald"
-format = '[[ $symbol $branch ](fg:silver bg:dark-emerald)]($style)'
+format = '[[ $symbol ](fg:silver bg:dark-emerald)]($style)'
 
 [git_status]
-style = "bg:crimson"
+style = "bg:dark-emerald"
 format = '[[($all_status$ahead_behind )](fg:silver bg:dark-emerald)]($style)'
 
 [time]
@@ -71,8 +71,8 @@ disabled = false
 
 [character]
 disabled = false
-success_symbol = '[╰─](bold text)[ ](bold emerald)'
-error_symbol = '[╰─](bold text)[ ](bold crimson)'
+success_symbol = '[╰─](bold text)[ ](bold gold)'
+error_symbol = '[╰─](bold text)[ ](bold crimson)'
 vimcmd_symbol = '[](bold emerald)'
 vimcmd_replace_one_symbol = '[](bold fg:gold)'
 vimcmd_replace_symbol = '[](bold fg:gold)'
