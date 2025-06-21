@@ -1,0 +1,80 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[╭─](bold text)[](surface)$os$hostname[]\
+(fg:surface bg:accent)$directory[]\
+(fg:accent bg:accent_dark)[]\
+(fg:accent_dark bg:base)$time[ ](fg:base)\
+$line_break$character"""
+
+palette = 'talos_scientist'
+
+[palettes.talos_admin]
+text = "#FFFFFF"
+surface = "#313244"
+accent = "#d7c68f"
+accent_dark = "#b79c53"
+accent_darkest = "#8a7121"
+base = "#671921"
+
+[palettes.talos_security]
+text = "#FFFFFF"
+surface = "#313244"
+accent = "#71655d"
+accent_dark = "#4a4038"
+accent_darkest = "#3d352f"
+base = "#4d7593"
+
+[palettes.talos_scientist]
+text = "#FFFFFF"
+surface = "#313244"
+accent = "#cbbdb1"
+accent_dark = "#b2a498"
+accent_darkest = "#60544a"
+base = "#4b8b5e"
+
+[palettes.talos_engineer]
+text = "#FFFFFF"
+surface = "#313244"
+accent = "#debf7d"
+accent_dark = "#b68138"
+accent_darkest = "#83551e"
+base = "#5e4738"
+
+[os]
+disabled = false
+style = "bg:surface fg:text"
+
+[os.symbols]
+Arch = "󰣇"
+Debian = "󰣚"
+
+[hostname]
+style = "bg:surface bold fg:text"
+format = '[ $hostname ]($style)'
+disabled = false
+
+[directory]
+style = "bg:accent bold fg:accent_darkest"
+format = "[ $path ]($style)"
+
+[directory.substitutions]
+"~" = ""
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:peach"
+format = '[[  $time ](bold text bg:base)]($style)'
+
+[line_break]
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[╰─](bold text)[ ](bold white)'
+error_symbol = '[╰─](bold text)[ ](bold red)'
+vimcmd_symbol = '[](bold white)'
+vimcmd_replace_one_symbol = '[](bold fg:gold)'
+vimcmd_replace_symbol = '[](bold fg:gold)'
+vimcmd_visual_symbol = '[](bold fg:gold)'
