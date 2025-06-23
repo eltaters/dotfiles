@@ -10,7 +10,8 @@ $line_break$character"""
 palette = 'elwyn_arch'
 [palettes.elwyn_arch]
 text = "#FFFFFF"
-surface = "#313244"
+surface = "#434352"
+surface_old =  "#313244"
 mantle = "#181825"
 crimson = "#9e2732"
 dark-crimson = "#671921"
