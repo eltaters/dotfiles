@@ -2,7 +2,8 @@
 
 format = """
 [╭─](bold text)[](surface)$os$username[]\
-(fg:surface bg:emerald)$directory[]\
+(fg:surface bg:surface_old)[]\
+(fg:surface_old bg:emerald)$directory[]\
 (fg:emerald bg:dark-emerald)$git_branch$git_status[]\
 (fg:dark-emerald bg:crimson)$time[ ](fg:crimson)\
 $line_break$character"""
@@ -65,7 +66,7 @@ format = '[[($all_status$ahead_behind )](fg:silver bg:dark-emerald)]($style)'
 disabled = false
 time_format = "%R"
 style = "bg:peach"
-format = '[[ 󰌪 $time ](bold text bg:crimson)]($style)'
+format = '[[ $time ](bold text bg:crimson)]($style)'
 
 [line_break]
 disabled = false
