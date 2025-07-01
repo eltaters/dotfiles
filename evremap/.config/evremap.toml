@@ -1,0 +1,9 @@
+# Keyboard
+device_name = "Corsair K65 PLUS Wireless Receiver Keyboard"
+
+# Configure CAPSLOCK as a Dual Role key.
+# Holding it produces LEFTCTRL, but tapping it will produce ESC.
+[[dual_role]]
+input = "KEY_CAPSLOCK"
+hold = ["KEY_LEFTCTRL"]
+tap = ["KEY_ESC"]
