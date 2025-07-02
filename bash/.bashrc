@@ -25,3 +25,6 @@ alias audio-set="sh ~/.audio-setup.sh set"
 alias audio-unset="sh ~/.audio-setup.sh unset"
 
 eval "$(starship init bash)"
+
+# For omnetpp
+[ -f "$HOME/omnetpp-6.0.3/setenv" ] && source "$HOME/omnetpp-6.0.3/setenv" >>/dev/null
