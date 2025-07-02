@@ -2,7 +2,7 @@
 
 format = """
 [╭─](bold text)[](surface)$os$username[]\
-(fg:surface bg:surface_old)[]\
+(fg:surface bg:surface_old)$python[]\
 (fg:surface_old bg:emerald)$directory[]\
 (fg:emerald bg:dark-emerald)$git_branch$git_status[]\
 (fg:dark-emerald bg:crimson)$time[ ](fg:crimson)\
@@ -12,7 +12,7 @@ palette = 'elwyn_arch'
 [palettes.elwyn_arch]
 text = "#FFFFFF"
 surface = "#434352"
-surface_old =  "#313244"
+surface_old = "#313244"
 mantle = "#181825"
 crimson = "#9e2732"
 dark-crimson = "#671921"
@@ -35,6 +35,13 @@ show_always = true
 style_user = "bold bg:surface fg:text"
 style_root = "bold bg:surface fg:text"
 format = '[ $user ]($style)'
+
+[python]
+symbol = ""
+style = "bg:surface_old"
+format = '[ $symbol ]($style)'
+detect_extensions = []         # Only detect virtual environment
+detect_files = []              # Only detect virtual environment 
 
 [directory]
 style = "fg:mantle bold bg:emerald"
