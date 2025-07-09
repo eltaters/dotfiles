@@ -7,3 +7,9 @@ vim.keymap.set("n", "<Up>", "")
 vim.keymap.set("n", "<Down>", "")
 vim.keymap.set("n", "<Left>", "")
 vim.keymap.set("n", "<Right>", "")
+
+-- Remove arrow keys from navigation in insert mode
+vim.keymap.set("i", "<Up>", "")
+vim.keymap.set("i", "<Down>", "")
+vim.keymap.set("i", "<Left>", "")
+vim.keymap.set("i", "<Right>", "")
