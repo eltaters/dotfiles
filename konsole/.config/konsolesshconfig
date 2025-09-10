@@ -1,2 +1,82 @@
 [Global plugin config]
 manageProfile=false
+
+[SSH Config][docker]
+hostname=docker
+identifier=docker
+importedFromSshConfig=true
+port=
+profileName=
+sshkey=~/.ssh/arch_ssh
+useSshConfig=true
+username=tato
+
+[SSH Config][fileserver]
+hostname=fileserver
+identifier=fileserver
+importedFromSshConfig=true
+port=
+profileName=arch
+sshkey=~/.ssh/arch_ssh
+useSshConfig=true
+username=root
+
+[SSH Config][nextcloud]
+hostname=nextcloud
+identifier=nextcloud
+importedFromSshConfig=true
+port=
+profileName=arch
+sshkey=
+useSshConfig=true
+username=
+
+[SSH Config][nginx]
+hostname=nginx
+identifier=nginx
+importedFromSshConfig=true
+port=
+profileName=arch
+sshkey=
+useSshConfig=true
+username=
+
+[SSH Config][pihole]
+hostname=pihole
+identifier=pihole
+importedFromSshConfig=true
+port=
+profileName=arch
+sshkey=~/.ssh/arch_ssh
+useSshConfig=true
+username=
+
+[SSH Config][talos]
+hostname=talos
+identifier=talos
+importedFromSshConfig=true
+port=
+profileName=arch
+sshkey=
+useSshConfig=true
+username=
+
+[SSH Config][vaultwarden]
+hostname=vaultwarden
+identifier=vaultwarden
+importedFromSshConfig=true
+port=
+profileName=arch
+sshkey=
+useSshConfig=true
+username=
+
+[SSH Config][wireguard]
+hostname=wireguard
+identifier=wireguard
+importedFromSshConfig=true
+port=
+profileName=arch
+sshkey=
+useSshConfig=true
+username=

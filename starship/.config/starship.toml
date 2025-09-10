@@ -32,8 +32,8 @@ Arch = "󰣇"
 
 [username]
 show_always = true
-style_user = "bold bg:surface fg:text"
-style_root = "bold bg:surface fg:text"
+style_user = "bg:surface fg:text"
+style_root = "bg:surface fg:text"
 format = '[ $user ]($style)'
 
 [python]
@@ -59,7 +59,7 @@ format = "[ $path ]($style)"
 "~" = "󰛓"
 "Github" = ""
 ".dotfiles" = ""
-
+"Foundry" = ""
 [git_branch]
 symbol = ""
 style = "bg:dark-emerald"

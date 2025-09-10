@@ -131,6 +131,12 @@
       "keyColor": "magenta"
     },
     {
+      "type": "command",
+      "key": "  󱍔 Borked",
+      "text": "echo 2 Times",
+      "keyColor": "magenta"
+    },
+    {
       "type": "custom",
       "format": "\u001b[90m└──────────────────────────────────────────────┘"
     },
