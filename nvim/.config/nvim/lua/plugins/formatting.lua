@@ -10,6 +10,10 @@ return {
         objcpp = { "clang_format" },
         cuda = { "clang_format" },
         proto = { "clang_format" },
+        python = {
+          'ruff_fix',
+          'ruff_format',
+        }
       },
       formatters = {
         clang_format = {
