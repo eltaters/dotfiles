@@ -34,3 +34,5 @@ if [ -z "$TMUX" ]; then
   [ -f "$HOME/omnetpp-6.0.3/inet4.5/setenv" ] && source "$HOME/omnetpp-6.0.3/inet4.5/setenv" -q
   [ -f "$HOME/omnetpp-6.0.3/simcan2chain/setenv" ] && source "$HOME/omnetpp-6.0.3/simcan2chain/setenv" -q
 fi
+
+. "$HOME/.local/bin/env"
