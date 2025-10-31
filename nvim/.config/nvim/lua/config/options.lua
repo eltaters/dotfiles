@@ -3,3 +3,5 @@
 -- Add any additional options here
 vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
 vim.opt.swapfile = false
+vim.g.snacks_animate = false
+vim.g.snacks_indent = false

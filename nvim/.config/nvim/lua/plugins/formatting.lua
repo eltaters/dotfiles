@@ -10,6 +10,10 @@ return {
         objcpp = { "clang_format" },
         cuda = { "clang_format" },
         proto = { "clang_format" },
+        python = {
+          'ruff_fix', -- To fix lint errors. (ruff with argument --fix)
+          'ruff_format', -- To run the formatter. (ruff with argument format)
+        }
       },
       formatters = {
         clang_format = {

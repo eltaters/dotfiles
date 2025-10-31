@@ -2,7 +2,7 @@ return {
   "saghen/blink.cmp",
   -- Make blink.cmp toogleable
   opts = function(_, opts)
-    vim.b.completion = false
+    vim.b.completion = true
 
     Snacks.toggle({
       name = "Completion",
