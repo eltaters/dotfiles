@@ -11,15 +11,15 @@ return {
         cuda = { "clang_format" },
         proto = { "clang_format" },
         python = {
-          'ruff_fix', -- To fix lint errors. (ruff with argument --fix)
-          'ruff_format', -- To run the formatter. (ruff with argument format)
-        }
+          "ruff_fix",
+          "ruff_format",
+        },
       },
       formatters = {
         clang_format = {
-          preprend_args = {"--style=file:/home/elwyn"}
-        }
-      }
+          preprend_args = { "--style=file:/home/elwyn" },
+        },
+      },
     }
     return opts
   end,
