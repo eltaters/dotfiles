@@ -3,4 +3,6 @@ IndentWidth: 4
 BreakBeforeBraces: Allman
 AccessModifierOffset: -2
 IndentAccessModifiers: false
-
+NamespaceIndentation: All
+FixNamespaceComments: false
+ColumnLimit: 0

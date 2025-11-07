@@ -13,3 +13,10 @@ vim.keymap.set("i", "<Up>", "")
 vim.keymap.set("i", "<Down>", "")
 vim.keymap.set("i", "<Left>", "")
 vim.keymap.set("i", "<Right>", "")
+
+-- Add extra keymaps for escaping text
+vim.keymap.set("i", "jk", "<Esc>", {noremap = false})
+vim.keymap.set("i", "kj", "<Esc>", {noremap = false})
+
+-- Disable the default escape key
+vim.keymap.set("i", "<Esc>", "")
