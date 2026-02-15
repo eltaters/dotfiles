@@ -1,8 +1,14 @@
--- Options are automatically loaded before lazy.nvim startup
--- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
--- Add any additional options here
+-- Some code-related configs
+vim.opt.number = true
+vim.opt.relativenumber = true
+
+-- Disable the swapfile I don't know how to use well
 vim.opt.swapfile = false
+
+-- Preferred UI for snacks.nvim
 vim.g.snacks_animate = false
 vim.g.snacks_indent = false
-vim.g.clipboard = 'osc52'
-vim.g.lazyvim_python_lsp = "ty"
+
+-- To use the system clipboard.
+vim.opt.clipboard = "unnamedplus"
+

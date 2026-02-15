@@ -1,30 +1,15 @@
--- Autocmds are automatically loaded on the VeryLazy event
--- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
---
--- Add any additional autocmds here
--- with `vim.api.nvim_create_autocmd`
---
--- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
--- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
-
--- Remove spell suggestions
-vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "text", "plaintex", "typst", "gitcommit", "markdown" },
-  callback = function()
-    vim.opt_local.wrap = true
-  end,
-})
-
--- Disable markdown rendering
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = "markdown",
-  callback = function()
-    vim.cmd("silent! RenderMarkdown disable")
+-- Always enable inlay hints by default
+-- Sort of lazy event, put them only when opening a file for an LSP
+-- that supports it.
+vim.api.nvim_create_autocmd("LspAttach", {
+  callback = function(args)
+    vim.lsp.inlay_hint.enable(true, { bufnr = args.buf })
   end,
 })
 
 -- Set tabs to 4 spaces in C/C++
+-- Vimsleuth should take care of this, but just in case I'll take what I
+-- was using from my previous config.
 vim.api.nvim_create_autocmd("FileType", {
   pattern = { "c", "cpp", "h" },
   callback = function()
@@ -35,3 +20,10 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
+-- Highlight on yank
+-- I literally cannot live without this, thank you folke
+vim.api.nvim_create_autocmd("TextYankPost", {
+  callback = function()
+    (vim.hl or vim.highlight).on_yank()
+  end,
+})
