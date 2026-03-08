@@ -26,5 +26,7 @@ return {
       "yaml",
     },
   },
-
+    highlight = {
+      enable = true,
+    },
 }

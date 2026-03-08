@@ -7,9 +7,10 @@ return {
       -- VimTeX configuration goes here, e.g.
       vim.g.vimtex_view_method = "zathura_simple"
       vim.g.vimtex_view_zathura_use_synctex = false
+      vim.g.vimtex_quickfix_mode = 0
     end,
   },
-  {
-    "micangl/cmp-vimtex",
-  },
+  -- {
+    -- "micangl/cmp-vimtex",
+  -- },
 }

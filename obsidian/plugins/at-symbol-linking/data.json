@@ -1,0 +1,16 @@
+{
+  "globalTriggerSymbol": "@",
+  "limitLinkDirectories": [],
+  "includeSymbol": false,
+  "showAddNewNote": false,
+  "addNewNoteFolders": [],
+  "includeSymbolInNewFileName": false,
+  "addNewNoteTemplateFile": "",
+  "addNewNoteDirectory": "",
+  "useCompatibilityMode": false,
+  "leavePopupOpenForXSpaces": 0,
+  "allowedCodeBlockTypes": [],
+  "invalidCharacterRegex": "[\\[\\]^|#]",
+  "invalidCharacterRegexFlags": "i",
+  "removeAccents": true
+}

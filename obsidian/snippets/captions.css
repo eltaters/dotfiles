@@ -1,0 +1,21 @@
+.image-captions-figure {
+    margin: 0;
+    padding: 0px;
+    display: table; /* To allow for correct caption text wrapping */
+    border-radius: 0px;
+}
+
+.image-captions-caption {
+    margin: 0 0 0 0;
+    padding: 3px 5px;
+    text-align: center;
+    display: table-caption; /* To allow for correct caption text wrapping */
+    caption-side: bottom;
+    opacity: 0.75;
+    font-size: 0.85rem !important;
+}
+.image-captions-figure,
+.image-captions-caption {
+    background: transparent;
+    font-style: italic;
+}

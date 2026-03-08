@@ -1,0 +1,384 @@
+{
+  "autoParse": false,
+  "calendars": [
+    {
+      "name": "Calendar of Amadis",
+      "description": "Edrobian imposed calendar for the world of Amadis, used in Waurane, displayed by eras and periods.",
+      "id": "ID_2acba9589a7b",
+      "showIntercalarySeparately": true,
+      "static": {
+        "incrementDay": false,
+        "firstWeekDay": 0,
+        "overflow": true,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Monday",
+            "id": "ID_0adaeb8bca79"
+          },
+          {
+            "type": "day",
+            "name": "Tuesday",
+            "id": "ID_38e8baaabb68"
+          },
+          {
+            "type": "day",
+            "name": "Wednesday",
+            "id": "ID_98dbebe8eb99"
+          },
+          {
+            "type": "day",
+            "name": "Thursday",
+            "id": "ID_79ca0a596bfa"
+          },
+          {
+            "type": "day",
+            "name": "Friday",
+            "id": "ID_18b90a79d929"
+          },
+          {
+            "type": "day",
+            "name": "Saturday",
+            "id": "ID_79689b691bc8"
+          },
+          {
+            "type": "day",
+            "name": "Sunday",
+            "id": "ID_1819aba979db"
+          }
+        ],
+        "months": [
+          {
+            "type": "month",
+            "name": "Bazel",
+            "length": 21,
+            "id": "ID_6a6b9928dae9",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Eptis",
+            "length": 21,
+            "id": "ID_7be8f89b6849",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Shelre",
+            "length": 21,
+            "id": "ID_a9d9587adb6a",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Yerien",
+            "length": 21,
+            "id": "ID_89caca78c9da",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Muun",
+            "length": 21,
+            "id": "ID_385afb8bc939",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Temri",
+            "length": 21,
+            "id": "ID_883aaaab0a49",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Solstis",
+            "length": 21,
+            "id": "ID_6b3b7998caa8",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Ysten",
+            "length": 21,
+            "id": "ID_586b7a5b197b",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Brinlen",
+            "length": 21,
+            "id": "ID_29db5869a868",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Adrim",
+            "length": 21,
+            "id": "ID_a9cbdb99fadb",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Fleur",
+            "length": 21,
+            "id": "ID_fa091adacb0a",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Lauhr",
+            "length": 21,
+            "id": "ID_fa0bb89a19fb",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Necre",
+            "length": 21,
+            "id": "ID_0ba859982bd9",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Iuren",
+            "length": 21,
+            "id": "ID_e99838daa8bb",
+            "interval": 1,
+            "offset": 0
+          },
+          {
+            "type": "month",
+            "name": "Threle",
+            "length": 21,
+            "id": "ID_ea0b6a48da7b",
+            "interval": 1,
+            "offset": 0
+          }
+        ],
+        "moons": [
+          {
+            "name": "Moon",
+            "cycle": 21,
+            "offset": 0,
+            "faceColor": "#b0b0b0",
+            "shadowColor": "#616161",
+            "id": "ID_eaab2a08eb2a"
+          }
+        ],
+        "displayMoons": true,
+        "displayDayNumber": true,
+        "leapDays": [],
+        "eras": [
+          {
+            "id": "ID_cbc88b5948a9",
+            "type": "era",
+            "name": "E.P.",
+            "description": "",
+            "format": "{{era_year}} {{era_name}}",
+            "endsYear": false,
+            "isEvent": false,
+            "category": null,
+            "isStartingEra": true,
+            "date": {
+              "year": 6246,
+              "month": 8,
+              "day": 5
+            }
+          },
+          {
+            "id": "ID_1a6848596a2a",
+            "type": "era",
+            "name": "E.P.P.",
+            "description": "",
+            "format": "{{era_year}} {{era_name}}",
+            "endsYear": false,
+            "isEvent": false,
+            "category": null,
+            "isStartingEra": false,
+            "date": {
+              "year": 1576,
+              "month": 0,
+              "day": 1
+            },
+            "end": {
+              "year": 3150,
+              "month": 14,
+              "day": 21
+            }
+          },
+          {
+            "id": "ID_9bf97b68e8e8",
+            "type": "era",
+            "name": "E.P.P.P.",
+            "description": "",
+            "format": "{{era_year}} {{era_name}}",
+            "endsYear": false,
+            "isEvent": false,
+            "category": null,
+            "isStartingEra": false,
+            "date": {
+              "year": 3151,
+              "month": 0,
+              "day": 1
+            },
+            "end": {
+              "year": 4725,
+              "month": 14,
+              "day": 21
+            }
+          },
+          {
+            "id": "ID_aba9c99b4afb",
+            "type": "era",
+            "name": "E.E.P.",
+            "description": "",
+            "format": "{{era_year}} {{era_name}}",
+            "endsYear": false,
+            "isEvent": false,
+            "category": null,
+            "isStartingEra": false,
+            "date": {
+              "year": 4726,
+              "month": 0,
+              "day": 1
+            }
+          }
+        ],
+        "padMonths": 2,
+        "padDays": 2,
+        "years": [],
+        "useCustomYears": false
+      },
+      "seasonal": {
+        "seasons": [
+          {
+            "id": "ID_8968aaeaa85b",
+            "name": "Autumn",
+            "type": "Periodic",
+            "color": "#b69c3e",
+            "duration": 63,
+            "peak": 0,
+            "weatherOffset": 56,
+            "weatherPeak": 5,
+            "kind": "None"
+          },
+          {
+            "id": "ID_0aa8c94889e8",
+            "name": "Winter",
+            "type": "Periodic",
+            "color": "#8ab3bc",
+            "duration": 63,
+            "peak": 0,
+            "weatherOffset": 56,
+            "weatherPeak": 5,
+            "kind": "None"
+          },
+          {
+            "id": "ID_183ad91be85a",
+            "name": "Spring",
+            "type": "Periodic",
+            "color": "#5a8767",
+            "duration": 63,
+            "peak": 0,
+            "weatherOffset": 56,
+            "weatherPeak": 5,
+            "kind": "None"
+          },
+          {
+            "id": "ID_0bba4a68d8ea",
+            "name": "Summer",
+            "type": "Periodic",
+            "color": "#fff4bd",
+            "duration": 63,
+            "peak": 0,
+            "weatherOffset": 56,
+            "weatherPeak": 5,
+            "kind": "None"
+          },
+          {
+            "id": "ID_5a285b98889b",
+            "name": "Clear",
+            "type": "Periodic",
+            "color": "#a2a0a0",
+            "duration": 63,
+            "peak": 0,
+            "weatherOffset": 56,
+            "weatherPeak": 5,
+            "kind": "None"
+          }
+        ],
+        "offset": 0,
+        "type": "Periodic",
+        "displayColors": true,
+        "interpolateColors": true,
+        "weather": {
+          "enabled": false,
+          "seed": 1230163783,
+          "tempUnits": "Imperial",
+          "windUnits": "Imperial",
+          "primaryWindDirection": "E",
+          "freezingPoint": 0
+        }
+      },
+      "locations": {
+        "locations": [],
+        "defaultLocation": ""
+      },
+      "current": {
+        "day": 5,
+        "month": 8,
+        "year": 6246
+      },
+      "events": [],
+      "categories": [],
+      "path": [],
+      "supportInlineEvents": false,
+      "inlineEventTag": "#inline-events",
+      "hideEra": false
+    }
+  ],
+  "configDirectory": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": "ID_2acba9589a7b",
+  "eventPreview": false,
+  "exit": {
+    "saving": false,
+    "event": false,
+    "calendar": false,
+    "savingEvent": false
+  },
+  "eventFrontmatter": false,
+  "parseDates": false,
+  "version": {
+    "major": 2,
+    "minor": 1,
+    "patch": 0,
+    "beta": null
+  },
+  "debug": false,
+  "askedToMoveFC": false,
+  "askedAboutSync": false,
+  "syncBehavior": "Ask",
+  "inlineEventsTag": null,
+  "paths": [
+    [
+      "/",
+      "DEFAULT"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "accentColor": "#c2af6b",
+  "cssTheme": "Fancy-a-Story",
+  "interfaceFontFamily": "",
+  "textFontFamily": "Adwaita Sans",
+  "nativeMenus": false,
+  "baseFontSize": 16,
+  "baseFontSizeAction": false,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "base",
+    "hide-properties",
+    "callouts",
+    "captions"
+  ],
+  "showViewHeader": true,
+  "showRibbon": true
+}

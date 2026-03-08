@@ -28,10 +28,22 @@ alias audio-unset="sh ~/.audio-setup.sh unset"
 eval "$(starship init bash)"
 
 # OMNeT: These statements load into the session the environment variables
+OMNET_PATH="$HOME/omnetpp-6.3.0"
 if [ -z "$TMUX" ]; then
-  [ -f "$HOME/omnetpp-6.0.3/setenv" ] && source "$HOME/omnetpp-6.0.3/setenv" -q
-  [ -f "$HOME/omnetpp-6.0.3/inet4.5/setenv" ] && source "$HOME/omnetpp-6.0.3/inet4.5/setenv" -q
-  [ -f "$HOME/omnetpp-6.0.3/simcan2chain/setenv" ] && source "$HOME/omnetpp-6.0.3/simcan2chain/setenv" -q
+  [ -f "$OMNET_PATH/setenv" ] && source "$OMNET_PATH/setenv" -q
+  [ -f "$OMNET_PATH/inet4.5/setenv" ] && source "$OMNET_PATH/inet4.5/setenv" -q
+  [ -f "$OMNET_PATH/Simcan2Fog/setenv" ] && source "$OMNET_PATH/Simcan2Fog/setenv" -q
 fi
 
-. "$HOME/.local/bin/env"
+alias gentest="rm -rf work && python3 auto/gentestfile.py && ./gentest.sh p2p/*"
+alias runtest="./runtest.sh p2p/*"
+
+# LaTeX paths
+export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
+export MANPATH=/usr/local/texlive/2025/texmf-dist/doc/man:$MANPATH
+export INFOPATH=/usr/local/texlive/2025/texmf-dist/doc/info:$INFOPATH
+
+# Zoxide
+eval "$(zoxide init bash)"
+alias cd="z"
+

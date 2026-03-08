@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1769641519890,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1769641519890,
+          "items": [],
+          "title": "notes"
+        },
+        {
+          "type": "group",
+          "ctime": 1769641519890,
+          "items": [],
+          "title": "biographies"
+        },
+        {
+          "type": "group",
+          "ctime": 1769641519890,
+          "items": [],
+          "title": "maps"
+        },
+        {
+          "type": "group",
+          "ctime": 1769641519890,
+          "items": [],
+          "title": "templates"
+        },
+        {
+          "type": "group",
+          "ctime": 1769641519890,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1769641519890,
+              "items": [],
+              "title": "images"
+            }
+          ],
+          "title": "images"
+        }
+      ],
+      "title": "sortspec"
+    }
+  ]
+}
