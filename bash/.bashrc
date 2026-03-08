@@ -16,9 +16,10 @@ alias neofetch="fastfetch"
 alias fastfetch="clear;fastfetch"
 alias mntnfs="sudo mount -t nfs fileserver.home:/nfs /nfs"
 alias gitauth='eval "$(ssh-agent -s)"; ssh-add ~/.ssh/arch_git'
-alias kssh='kitten ssh'
+alias ssh='kitten ssh'
 alias clear="clear ; printf '\E[H\E[3J'"
 alias venv='source .venv/bin/activate'
+
 
 # Script command aliases
 alias uam-connect="sh ~/.uam-connect.sh"
