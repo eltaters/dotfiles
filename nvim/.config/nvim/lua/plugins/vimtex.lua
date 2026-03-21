@@ -10,7 +10,7 @@ return {
       vim.g.vimtex_quickfix_mode = 0
     end,
   },
-  -- {
-    -- "micangl/cmp-vimtex",
-  -- },
+  {
+    "micangl/cmp-vimtex",
+  },
 }
