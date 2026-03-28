@@ -10,8 +10,8 @@ return {
     require("nord").set()
     vim.cmd("colorscheme nord")
 
-    vim.api.nvim_set_hl(0, "Normal", { bg = "#222630" })
-    vim.api.nvim_set_hl(0, "NormalNC", { bg = "#222630" })
+    -- vim.api.nvim_set_hl(0, "Normal", { bg = "#222630" })
+    -- vim.api.nvim_set_hl(0, "NormalNC", { bg = "#222630" })
     -- Lsp inlay highlights
     require("nord.util").highlight("LspInlayHint", { fg = colors.nord3_gui_bright })
 
