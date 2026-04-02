@@ -48,5 +48,27 @@ vim.lsp.config("pylsp", {
         pycodestyle = { enabled = false }
       }
     }
-  }
+  },
+  on_attach = function(client)
+    client.server_capabilities.documentSymbolProvider = false
+    client.server_capabilities.workspaceSymbolProvider = false
+  end
+})
+
+vim.lsp.config("basedpyright", {
+  settings = {
+    basedpyright = {
+      analysis = {
+        typeCheckingMode = "off"
+      }
+    }
+  },
+
+  on_attach = function(client, _)
+    client.server_capabilities.definitionProvider = false
+    client.server_capabilities.declarationProvider = false
+    client.server_capabilities.referencesProvider = false
+    client.server_capabilities.implementationProvider = false
+    client.server_capabilities.typeDefinitionProvider = false
+  end,
 })
