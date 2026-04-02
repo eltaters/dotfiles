@@ -6,7 +6,7 @@ return {
   "saghen/blink.cmp",
   dependencies = { "rafamadriz/friendly-snippets" },
   version = "1.*",
-  ft = { "python", "lua", "cpp" },
+  ft = { "python", "cpp" },
   opts = {
     -- 'super-tab' for mappings similar to vscode (tab to accept)
     -- See :h blink-cmp-config-keymap for defining your own keymap
