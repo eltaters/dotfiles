@@ -56,14 +56,6 @@ vim.lsp.config("pylsp", {
 })
 
 vim.lsp.config("basedpyright", {
-  settings = {
-    basedpyright = {
-      analysis = {
-        typeCheckingMode = "off"
-      }
-    }
-  },
-
   on_attach = function(client, _)
     client.server_capabilities.definitionProvider = false
     client.server_capabilities.declarationProvider = false
