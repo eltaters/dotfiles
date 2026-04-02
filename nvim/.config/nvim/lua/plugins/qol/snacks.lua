@@ -2,7 +2,7 @@
 -- Plugin that includes a TON of QoL functionality to neovim.
 ---@diagnostic disable: undefined-global
 --
--- 
+--
 return {
   "folke/snacks.nvim",
   priority = 1000,
@@ -142,34 +142,14 @@ return {
       function() Snacks.picker.grep() end,
       desc = "Grep",
     },
-    {
-      "<leader>sw",
-      function() Snacks.picker.grep_word() end,
-      desc = "Visual selection or word",
-      mode = { "n", "x" },
-    },
 
     -- Search
     {
       '<leader>s"',
       function()
-        Snacks.picker.registers() end,
+        Snacks.picker.registers()
+      end,
       desc = "Registers",
-    },
-    {
-      "<leader>s/",
-      function() Snacks.picker.search_history() end,
-      desc = "Search History",
-    },
-    {
-      "<leader>sa",
-      function() Snacks.picker.autocmds() end,
-      desc = "Autocmds",
-    },
-    {
-      "<leader>sb",
-      function() Snacks.picker.lines() end,
-      desc = "Buffer Lines",
     },
     {
       "<leader>sc",
@@ -227,11 +207,6 @@ return {
       desc = "Marks",
     },
     {
-      "<leader>sM",
-      function() Snacks.picker.man() end,
-      desc = "Man Pages",
-    },
-    {
       "<leader>sp",
       function() Snacks.picker.lazy() end,
       desc = "Search for Plugin Spec",
@@ -250,11 +225,6 @@ return {
       "<leader>su",
       function() Snacks.picker.undo() end,
       desc = "Undo History",
-    },
-    {
-      "<leader>uC",
-      function() Snacks.picker.colorschemes() end,
-      desc = "Colorschemes",
     },
 
     -- LSP
@@ -303,22 +273,13 @@ return {
     {
       "<leader>sS",
       function()
-        Snacks.picker.lsp_workspace_symbols() end,
+        Snacks.picker.lsp_workspace_symbols()
+      end,
       desc = "LSP Workspace Symbols",
     },
 
     -- Other
     -- I mostly use the ones at the top since they have to do with the UI.
-    {
-      "<leader>z",
-      function() Snacks.zen() end,
-      desc = "Toggle Zen Mode",
-    },
-    {
-      "<leader>Z",
-      function() Snacks.zen.zoom() end,
-      desc = "Toggle Zoom",
-    },
     {
       "<leader>n",
       function() Snacks.notifier.show_history() end,
@@ -336,7 +297,10 @@ return {
     },
     {
       "<leader>ba",
-      function() Snacks.bufdelete.other() Snacks.bufdelete() end,
+      function()
+        Snacks.bufdelete.other()
+        Snacks.bufdelete()
+      end,
       desc = "Delete All Buffers",
     },
     {
@@ -387,7 +351,7 @@ return {
   -- Some extra dynamic toggles defined post-startup
   init = function()
     vim.api.nvim_create_autocmd("User", {
-      pattern = "VeryLazy", 
+      pattern = "VeryLazy",
       callback = function()
         -- Setup some globals for debugging (lazy-loaded)
         _G.dd = function(...)
@@ -413,8 +377,8 @@ return {
         Snacks.toggle.diagnostics():map("<leader>ud")
         Snacks.toggle.line_number():map("<leader>ul")
         Snacks.toggle
-          .option("conceallevel", { off = 0, on = vim.o.conceallevel > 0 and vim.o.conceallevel or 2 })
-          :map("<leader>uc")
+            .option("conceallevel", { off = 0, on = vim.o.conceallevel > 0 and vim.o.conceallevel or 2 })
+            :map("<leader>uc")
         Snacks.toggle.treesitter():map("<leader>uT")
         Snacks.toggle.option("background", { off = "light", on = "dark", name = "Dark Background" }):map("<leader>ub")
         Snacks.toggle.inlay_hints():map("<leader>uh")
