@@ -1,6 +1,6 @@
 --
 -- Show separate windows for diagnostics, symbols, etc.
--- 
+--
 --
 return {
   "folke/trouble.nvim",

@@ -5,8 +5,8 @@
 --
 return {
   "hrsh7th/nvim-cmp",
-  version = false, -- I trust LazyVim with my life on this one
-  event = "InsertEnter",
+  version = false, 
+  ft = { "tex", "latex" },
   dependencies = {
     "L3MON4D3/LuaSnip",
     "hrsh7th/cmp-nvim-lsp",

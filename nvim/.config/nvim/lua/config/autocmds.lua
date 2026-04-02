@@ -1,6 +1,5 @@
 -- Always enable inlay hints by default
--- Sort of lazy event, put them only when opening a file for an LSP
--- that supports it.
+---@diagnostic disable: undefined-global
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(args)
     vim.lsp.inlay_hint.enable(true, { bufnr = args.buf })
@@ -8,8 +7,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 -- Set tabs to 4 spaces in C/C++
--- Vimsleuth should take care of this, but just in case I'll take what I
--- was using from my previous config.
 vim.api.nvim_create_autocmd("FileType", {
   pattern = { "c", "cpp", "h" },
   callback = function()
@@ -21,9 +18,14 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 -- Highlight on yank
--- I literally cannot live without this, thank you folke
 vim.api.nvim_create_autocmd("TextYankPost", {
   callback = function()
     (vim.hl or vim.highlight).on_yank()
   end,
+})
+
+-- Treesitter highlights
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = { "python", "cpp", "latex", "tex" },
+  callback = function() vim.treesitter.start() end
 })
