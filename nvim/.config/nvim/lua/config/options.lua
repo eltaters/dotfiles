@@ -48,13 +48,26 @@ vim.lsp.config("pylsp", {
   settings = {
     pylsp = {
       plugins = {
-        pyflakes = { enabled = false },
+        pyflakes = { enabled = true },
         mccabe = { enabled = false },
         pycodestyle = { enabled = false },
+        inlay_hints = {
+          enabled = true, show_parameter_hints = true, show_return_types = true, show_variable_types = true
+        }
       }
-    }
+    },
   }
 })
+
+-- vim.lsp.config("basedpyright", {
+--   settings = {
+--     basedpyright = {
+--       analysis = {
+--         diagnosticMode = "off",
+--       }
+--     }
+--   }
+-- })
 
 vim.g.nord_contrast = true
 -- -- BlinkCmpKind

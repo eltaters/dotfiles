@@ -29,12 +29,13 @@ style = "bg:surface fg:text"
 
 [os.symbols]
 Arch = "󰣇"
+Macos = ""
 
 [username]
 show_always = true
 style_user = "bg:surface fg:text"
 style_root = "bg:surface fg:text"
-format = '[ $user ]($style)'
+format = '[ Tomas ]($style)'
 
 [python]
 symbol = ""
