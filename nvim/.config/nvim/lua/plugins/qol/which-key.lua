@@ -1,5 +1,7 @@
--- Please for the love of god show me which key I need to press
--- To use the bajillion <leader> commands in my config, ty
+--
+-- Key binding menu
+--
+--
 return {
   "folke/which-key.nvim",
   event = "VeryLazy",

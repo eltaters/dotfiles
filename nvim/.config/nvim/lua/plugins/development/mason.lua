@@ -3,14 +3,14 @@
 return {
   {
     "mason-org/mason.nvim",
-    opts = {}
+    opts = {},
   },
   {
     "mason-org/mason-lspconfig.nvim",
     opts = {
       ensure_installed = {
         "lua_ls",
-        "clangd"
+        "clangd",
       },
     },
   },
@@ -18,4 +18,3 @@ return {
     "neovim/nvim-lspconfig",
   },
 }
-

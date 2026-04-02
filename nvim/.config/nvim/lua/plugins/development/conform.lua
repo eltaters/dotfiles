@@ -2,7 +2,6 @@
 -- Formatting file plgin.
 --
 --
---
 return {
   "stevearc/conform.nvim",
   dependencies = { "mason-org/mason.nvim", "p00f/clangd_extensions.nvim" },

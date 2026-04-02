@@ -1,4 +1,4 @@
--- 
+--
 -- Show currently open buffers as pretty tabs.
 --
 --

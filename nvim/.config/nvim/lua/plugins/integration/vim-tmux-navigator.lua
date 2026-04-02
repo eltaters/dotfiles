@@ -1,3 +1,7 @@
+--
+-- Vim integration with tmux for automagic pane navigation.
+--
+--
 return {
   {
     "christoomey/vim-tmux-navigator",

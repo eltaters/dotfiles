@@ -1,3 +1,7 @@
+--
+-- The god of highlighting.
+--
+--
 return {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
@@ -26,7 +30,7 @@ return {
       "yaml",
     },
   },
-    highlight = {
-      enable = true,
-    },
+  highlight = {
+    enable = true,
+  },
 }

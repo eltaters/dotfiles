@@ -1,6 +1,8 @@
+--
 -- Plugin that includes a TON of QoL functionality to neovim.
--- LazyVim depends heavily on it for its VSCode-like appearance.
 ---@diagnostic disable: undefined-global
+--
+-- 
 return {
   "folke/snacks.nvim",
   priority = 1000,

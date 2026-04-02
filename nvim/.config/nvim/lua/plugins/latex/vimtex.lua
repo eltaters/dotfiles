@@ -1,16 +1,20 @@
+--
+-- The power of LaTeX in neovim.
+--
+--
 return {
   {
     "lervag/vimtex",
-    lazy = false, -- we don't want to lazy load VimTeX
-    -- tag = "v2.15", -- uncomment to pin to a specific release
+    lazy=false,
+    -- ft = { "tex", "latex" },
     init = function()
-      -- VimTeX configuration goes here, e.g.
       vim.g.vimtex_view_method = "zathura_simple"
       vim.g.vimtex_view_zathura_use_synctex = false
       vim.g.vimtex_quickfix_mode = 0
     end,
   },
-  -- {
-    -- "micangl/cmp-vimtex",
-  -- },
+  {
+    "micangl/cmp-vimtex",
+    ft = { "tex", "latex" },
+  },
 }
