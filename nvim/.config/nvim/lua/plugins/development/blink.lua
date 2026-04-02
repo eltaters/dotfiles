@@ -1,11 +1,12 @@
+-- 
+-- Code completion, but blazing fast.
+--
 return {
   'saghen/blink.cmp',
   dependencies = { 'rafamadriz/friendly-snippets' },
 
   version = '1.*',
 
-  ---@module 'blink.cmp'
-  ---@type blink.cmp.Config
   opts = {
     -- 'super-tab' for mappings similar to vscode (tab to accept)
     -- See :h blink-cmp-config-keymap for defining your own keymap
@@ -18,7 +19,7 @@ return {
     },
 
     -- Only show the documentation popup when manually triggered
-    completion = { 
+    completion = {
       documentation = { auto_show = false },
       menu = {
         draw = {

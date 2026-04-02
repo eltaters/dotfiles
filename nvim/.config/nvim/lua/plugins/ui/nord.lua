@@ -1,4 +1,7 @@
+--
 -- Nord theme my beloved
+--
+--
 return {
   "shaunsingh/nord.nvim",
   lazy = false,
@@ -8,12 +11,8 @@ return {
     vim.cmd("colorscheme nord")
     local colors = require("nord.colors")
 
-    -- Lsp inlay highlights
+    -- Make some colors easier to read
     require("nord.util").highlight("LspInlayHint", { fg = colors.nord3_gui_bright })
-
-    -- Explorer untracked files
-    require("nord.util").highlight("NonText", {
-      fg = colors.nord3_gui_bright,
-    })
+    require("nord.util").highlight("NonText", { fg = colors.nord3_gui_bright })
   end,
 }

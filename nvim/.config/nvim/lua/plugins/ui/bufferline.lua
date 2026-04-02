@@ -1,4 +1,7 @@
--- Basically, the tabs.
+-- 
+-- Show currently open buffers as pretty tabs.
+--
+--
 return {
   "akinsho/bufferline.nvim",
   event = "BufReadPre",

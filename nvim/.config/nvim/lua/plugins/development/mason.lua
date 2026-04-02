@@ -1,3 +1,5 @@
+-- Installer for language servers (LSPs)
+-- Includes the standard lspconfig.
 return {
   {
     "mason-org/mason.nvim",
@@ -14,6 +16,6 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
- },
+  },
 }
 
