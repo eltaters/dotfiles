@@ -29,19 +29,20 @@ style = "bg:surface fg:text"
 
 [os.symbols]
 Arch = "󰣇"
+Macos = ""
 
 [username]
 show_always = true
 style_user = "bg:surface fg:text"
 style_root = "bg:surface fg:text"
-format = '[ $user ]($style)'
+format = '[ Tato ]($style)'
 
-[python]
+[python] # Only triggers with active venv
 symbol = ""
 style = "bg:surface_old"
 format = '[ $symbol ]($style)'
-detect_extensions = []         # Only detect virtual environment
-detect_files = []              # Only detect virtual environment 
+detect_extensions = []
+detect_files = []
 
 [directory]
 style = "fg:mantle bold bg:emerald"
