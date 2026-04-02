@@ -28,7 +28,7 @@ return {
     -- Top Pickers & Explorer
     {
       "<leader><space>",
-      function() Snacks.picker.smart() end,
+      function() Snacks.picker.files() end,
       desc = "Find files",
     },
     {
