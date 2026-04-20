@@ -8,7 +8,7 @@ return {
   lazy = false,
   keys = {
     {
-      "<leader>cF",
+      "<leader>cf",
       function()
         require("conform").format({ timeout_ms = 3000 })
       end,
