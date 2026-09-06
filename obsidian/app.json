@@ -5,5 +5,9 @@
   "spellcheck": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "vimMode": false,
+  "strictLineBreaks": false,
+  "livePreview": false,
+  "defaultViewMode": "preview"
 }

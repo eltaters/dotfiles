@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3aa3a61567009673",
+        "id": "157a2d63f9742aff",
         "type": "tabs",
         "children": [
           {
-            "id": "f5f0d48958a25972",
+            "id": "af9be92f83ba3d18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Sessions/Misdeval/Untitled.md",
-                "mode": "source",
-                "source": false,
+                "file": "notes/worldbuilding/people/Kirlya Aduntar.md",
+                "mode": "preview",
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Kirlya Aduntar"
             }
           }
         ]
@@ -36,7 +36,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "81fc3f17107ba816",
+            "id": "01d643b8f0c452b1",
             "type": "leaf",
             "state": {
               "type": "notebook-navigator",
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "anfren",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,33 +63,38 @@
             }
           },
           {
-            "id": "930d03aee7264ab3",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
             "id": "28d003f6c30551c1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+            }
+          },
+          {
+            "id": "8f7fbe92d068a43b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 457.0677366256714
   },
   "right": {
     "id": "8b5d3b2eb6972d41",
@@ -100,87 +105,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f49b74cd97e90de",
+            "id": "cad1c8fc730b7f05",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "backlink",
+              "type": "file-properties",
               "state": {
-                "file": "notes/script/Hidden Beneath Divinity.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "notes/worldbuilding/people/Kairishel Blodkar.md"
               },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Hidden Beneath Divinity"
+              "pinned": true,
+              "icon": "lucide-info",
+              "title": "File properties for Kairishel Blodkar"
             }
           },
           {
-            "id": "dc276465172f41df",
+            "id": "467d260eea74c2d9",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "all-properties",
               "state": {
-                "file": "notes/world/Ava Lavander.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Ava Lavander"
-            }
-          },
-          {
-            "id": "f96799ec049d66e8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "notes/world/Ava Lavander.md",
-                "followCursor": false,
+                "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-list",
-              "title": "Outline of Ava Lavander"
-            }
-          },
-          {
-            "id": "b2713f33c8c4ddb4",
-            "type": "leaf",
-            "state": {
-              "type": "CALENDARIUM",
-              "state": {
-                "calendar": "ID_2acba9589a7b",
-                "ephemeral": {
-                  "viewing": {
-                    "day": 5,
-                    "month": 8,
-                    "year": 6246
-                  },
-                  "viewState": 1,
-                  "displaying": {
-                    "day": 5,
-                    "month": 8,
-                    "year": 6246
-                  },
-                  "displayDayNumber": true,
-                  "displaySeasonColors": false,
-                  "interpolateColors": true,
-                  "hideEra": false,
-                  "displayAbsoluteYear": false,
-                  "displayMoons": false,
-                  "displayWeeks": false,
-                  "displayWeather": true,
-                  "location": ""
-                },
-                "id": "ID_09dbcb2b0948",
-                "child": "ID_f8a8d87b4af8"
-              },
-              "icon": "lucide-ghost",
-              "title": "CALENDARIUM"
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -199,41 +148,55 @@
             }
           },
           {
-            "id": "60073a2babefa321",
+            "id": "4746d72b4d46738f",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
+              "type": "backlink",
               "state": {
-                "sortOrder": "frequency",
+                "file": "notes/worldbuilding/people/Anfren Nobeld Tant E'Lianfel.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7973f8db126f1407",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/worldbuilding/people/Anfren Nobeld Tant E'Lianfel.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b65c7e695b4bd134",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/worldbuilding/people/Anfren Nobeld Tant E'Lianfel.md",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "58b8057df2717cd8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "af770e5f5197b8e3",
-            "type": "leaf",
-            "state": {
-              "type": "CALENDARIUM_AGENDA",
-              "state": {
-                "calendar": "ID_2acba9589a7b",
-                "id": "ID_f8a8d87b4af8",
-                "parent": "ID_09dbcb2b0948"
-              },
-              "icon": "lucide-ghost",
-              "title": "CALENDARIUM_AGENDA"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -252,56 +215,57 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "81fc3f17107ba816",
+  "active": "af9be92f83ba3d18",
   "lastOpenFiles": [
-    "notes/Sessions/Misdeval/Sesion II.md",
-    "notes/Sessions/Misdeval/Untitled.md",
-    "notes/World/People/Leiru Niac.md",
+    "notes/worldbuilding/people/Duzmil Morgis.md",
+    "notes/worldbuilding/religions/iznari/Church of Iznareth.md",
+    "notes/worldbuilding/people/Elric Lambirghton.md",
+    "notes/worldbuilding/people/Flynn Prisliden.md",
+    "notes/worldbuilding/people/Kairishel Blodkar.md",
+    "notes/worldbuilding/people/Caligola.md",
+    "notes/worldbuilding/religions/adhists/Pursuers of the Light.md",
+    "notes/worldbuilding/religions/adhists/Devout.md",
+    "notes/worldbuilding/religions/adhists/Ados.md",
+    "notes/worldbuilding/people/Clara.md",
+    "notes/worldbuilding/people/Silica.md",
+    "notes/worldbuilding/people/Diana.md",
+    "notes/worldbuilding/people/Julia.md",
+    "notes/worldbuilding/factions/House E’Lianfel.md",
+    "notes/worldbuilding/locations/Sonamoor.md",
+    "notes/worldbuilding/religions/iznari/Order of Dusk.md",
+    "notes/worldbuilding/people/Zenis.md",
+    "notes/worldbuilding/religions/ystari/Ystar.md",
+    "notes/worldbuilding/locations/waurane/Arcgan.md",
+    "notes/worldbuilding/locations/waurane/Aretnorf.md",
+    "notes/worldbuilding/people/Aurelia Silveria Flórez.md",
+    "notes/worldbuilding/people/Asha Brinley.md",
+    "notes/worldbuilding/people/Gardea Aduntar.md",
+    "notes/worldbuilding/people/Hazel Hoover.md",
+    "notes/worldbuilding/people/Ava Lavander.md",
+    "notes/worldbuilding/people/Anfren Nobeld Tant E'Lianfel.md",
+    "images/portraits/caligola-portrait.png",
+    "images/portraits/yinedel-feyshroud.jpg",
+    "images/portraits/tolliver-equinox.jpg",
+    "images/portraits/jin-morgis.jpg",
+    "images/portraits/azbrian-morgis.jpg",
+    "notes/worldbuilding/people/erleene-arboris.jpg",
+    "notes/worldbuilding/people/erleene-arboris 1.jpg",
+    "images/portraits/anket-leba.png",
+    "images/portraits/erleene-arboris.jpg",
+    "images/portraits/kairishel-blodkar.png",
+    "notes/worldbuilding/religions/iznari",
+    "notes/worldbuilding/factions",
+    "Ava Lavander.canvas",
+    "biographies/Ava Lavander.canvas",
+    "notes/World/Factions/Untitled.canvas",
+    "notes/World/Factions",
     "notes/Sessions/Misdeval",
     "notes/Sessions/Ala de Plata",
     "notes/Sessions/Lencer",
-    "notes/World/People/Ilzuthar Uqhior.md",
-    "notes/World/People/Ava Lavander.md",
-    "images/portraits/Kirlya-Aduntar.jpg",
-    "images/portraits/Adhist-Devout-Concept.jpg",
-    "biographies/Ava Lavander.canvas",
-    "notes/World/Religions/Ados/Pursuers of the Light.md",
-    "notes/World/Religions/Ados/Preservers of Justice.md",
-    "notes/World/Religions/Ados/Enkindled.md",
-    "notes/World/Religions/Ados/Enforcer.md",
-    "notes/World/Religions/Ados/Devout.md",
-    "notes/World/Religions/Ados/Missionary.md",
-    "train.png",
-    "RE0 Speedrun.md",
-    "Pasted image 20260207205817.png",
-    "notes/World/Religions/Ados/Preacher.md",
-    "images/portraits/Adhist-Missionary-Concept.jpg",
-    "notes/World/Events/The Shadowplague.md",
-    "notes/World/Religions/Ados/Holy Emissary.md",
-    "notes/World/Religions/Ados/Aegil.md",
-    "notes/World/Religions/Ados/High Bishop.md",
-    "notes/World/Religions/Ados/Light Judge.md",
-    "notes/World/Religions/Ados/Pontiff.md",
-    "notes/World/Religions/Ados/Shepherd.md",
-    "notes/World/Religions/Ados/Underblade.md",
-    "templates/wiki-page-no-toc.md",
-    "notes/World/Religions/Ados/Brightblade.md",
-    "notes/World/Religions/Ados/Aerlon.md",
-    "notes/World/Religions/Ystar/The Ystari.md",
-    "notes/World/Religions/Ados/Ados.md",
-    "notes/World/Events",
-    "notes/World/Geography/Waurane",
-    "notes/World/Geography",
-    "notes/World/People",
-    "notes/World/Religions/Berut",
-    "notes/World/Religions/Bazbris",
-    "notes/World/Religions/Yerien",
-    "images/portraits/Ados-Enforcer.jpg",
-    "images/portraits/Ava-Lavander.jpg",
-    "images/portraits/Eine-Sylvanne.jpg",
-    "Untitled.canvas",
-    "Ava Lavander.canvas",
-    "images/test.jpg",
-    "images/eine.jpg"
+    "notes/worldbuilding/events",
+    "notes/worldbuilding/locations/waurane",
+    "notes/worldbuilding/locations",
+    "notes/worldbuilding/people",
+    "Untitled.canvas"
   ]
 }

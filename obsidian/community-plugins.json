@@ -4,11 +4,12 @@
   "obsidian-banners",
   "obsidian-style-settings",
   "at-symbol-linking",
-  "notebook-navigator",
-  "omnisearch",
   "obsidian-smart-typography",
   "tag-wrangler",
   "image-captions",
   "automatic-table-of-contents",
-  "editor-width-slider"
+  "editor-width-slider",
+  "node-factor",
+  "vim-motions",
+  "notebook-navigator"
 ]

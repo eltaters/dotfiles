@@ -24,5 +24,40 @@
       ],
       "key": "R"
     }
+  ],
+  "vim-cheatsheet:open-vim-cheatsheet-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Y"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "workspace:close-window": [],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "="
+    }
+  ],
+  "editor:open-search": [],
+  "vim-motions:picker-livegrep": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "vim-motions:picker-files": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
   ]
 }

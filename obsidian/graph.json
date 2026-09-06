@@ -3,20 +3,49 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#Worldbuilding/Nobles",
+      "color": {
+        "a": 1,
+        "rgb": 16736633
+      }
+    },
+    {
+      "query": "tag:#Worldbuilding/Faction  ",
+      "color": {
+        "a": 1,
+        "rgb": 6081023
+      }
+    },
+    {
+      "query": "tag:#Worldbuilding/Religion  ",
+      "color": {
+        "a": 1,
+        "rgb": 16763755
+      }
+    },
+    {
+      "query": "tag:#Worldbuilding/Player  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.00309826716385,
-  "lineSizeMultiplier": 1.30484755428822,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "textFadeMultiplier": 0.1,
+  "nodeSizeMultiplier": 1.02240819938062,
+  "lineSizeMultiplier": 0.706663137195583,
+  "collapse-forces": false,
+  "centerStrength": 0.32009944251921,
+  "repelStrength": 10.7583637351549,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.652988796187749,
+  "linkDistance": 127,
+  "scale": 0.822538005079797,
   "close": false
 }

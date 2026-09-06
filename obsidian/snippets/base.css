@@ -30,3 +30,13 @@ body {
 	text-align: justify;
 	text-justify: inter-word;	
 }
+
+/* left-align tables */
+.markdown-preview-view table,
+.markdown-preview-view th,
+.markdown-preview-view td,
+.markdown-source-view.mod-cm6 table,
+.markdown-source-view.mod-cm6 th,
+.markdown-source-view.mod-cm6 td {
+  text-align: left !important;
+}
